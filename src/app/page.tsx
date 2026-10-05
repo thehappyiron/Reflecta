@@ -14,6 +14,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Companion } from '@/components/Companion';
 import { Glass } from '@/components/Glass';
 import { Pointer } from '@/components/ui/custom-cursor';
+import BlurText from '@/components/ui/blur-text';
 
 const Silk = dynamic(() => import('@/components/Silk'), { ssr: false });
 
@@ -262,9 +263,23 @@ export default function LandingPage() {
                   marginBottom: '22px',
                 }}
               >
-                Better questions.{' '}
+                <BlurText
+                  text="Better questions."
+                  delay={120}
+                  animateBy="words"
+                  direction="top"
+                  as="span"
+                />
                 <br />
-                <span style={{ color: '#7C3AED' }}>Clearer you.</span>
+                <BlurText
+                  text="Clearer you."
+                  delay={120}
+                  delayOffset={240}
+                  animateBy="words"
+                  direction="top"
+                  as="span"
+                  style={{ color: '#7C3AED' }}
+                />
               </h1>
 
               {/* Supporting text */}
