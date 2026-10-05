@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# REFLECTA
 
-First, run the development server:
+### Better questions. Clearer you.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**An AI reasoning companion that helps you spot the blind spots in your thinking — without making the decision for you.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Reflecta-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_DEMO_URL)
+[![Built With](https://img.shields.io/badge/Built%20With-Gemini-8E75FF?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br/>
 
-## Learn More
+> **Most decision tools help you find answers.**
+>
+> **Reflecta helps you find the questions you failed to ask.**
 
-To learn more about Next.js, take a look at the following resources:
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## The Problem
 
-## Deploy on Vercel
+We don't usually make bad decisions because we have *too little information*.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We make them because we don't notice what we're **not considering**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A salary looks attractive.
+
+A college looks prestigious.
+
+An internship sounds exciting.
+
+A location feels convenient.
+
+And somewhere underneath all of that are assumptions:
+
+- "This will definitely help my career."
+- "I'll be able to manage the workload."
+- "The alternative probably isn't better."
+- "I'll figure out the unknown parts later."
+
+The problem isn't always the decision.
+
+**Sometimes it's the way we're thinking about the decision.**
+
+---
+
+# Meet Reflecta
+
+Reflecta is an AI-powered **reasoning mirror**.
+
+Instead of telling you:
+
+> "Choose Option A."
+
+Reflecta asks:
+
+> "What makes you believe Option A will actually give you what you want?"
+
+Instead of generating another generic pros-and-cons list, it examines **your own reasoning**.
+
+It separates:
+
+**What you know.**
+
+**What you believe.**
+
+**What you're assuming.**
+
+**What you don't know yet.**
+
+**What contradicts your reasoning.**
+
+**What could change your mind.**
+
+And then it gives you something much more useful:
+
+### A clearer view of your own thinking.
+
+---
+
+<div align="center">
+
+## No perfect choices.
+
+### Just clearer thinking.
+
+</div>
+
+---
+
+# Why Reflecta Is Different
+
+Most AI decision tools follow this pattern:
+
+```text
+User
+  ↓
+Decision
+  ↓
+Pros + Cons
+  ↓
+AI Recommendation
+  ↓
+"Choose this"
